@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     /*border: 1px solid red;*/
 }
@@ -13,7 +21,7 @@
     h2,
     h3,
     a {
-        font-family: "League Gothic", sans-serif;
+        font-family: "league_gothicregular", "League Gothic", sans-serif;
     }
 
     div,
