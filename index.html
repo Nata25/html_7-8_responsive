@@ -4,20 +4,40 @@
         <meta charset="utf-8">
         <title>Pingbuller: Home page</title>
         <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <!-- <script src="https://use.typekit.net/ilq0csh.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
     </head>
     <body>
         <header class="header">
 
-            <!-- insert svg logo here -->
+            <svg class="header__logo logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="38" viewBox="0 0 154 37">
+              <defs>
+                <filter id="filter" x="0" y="0" width="124" height="41" filterUnits="userSpaceOnUse">
+                  <feOffset result="offset" dy="2" in="SourceAlpha"/>
+                  <feGaussianBlur result="blur" stdDeviation="1.414"/>
+                  <feFlood result="flood" flood-opacity="0.3"/>
+                  <feComposite result="composite" operator="in" in2="blur"/>
+                  <feBlend result="blend" in="SourceGraphic"/>
+                </filter>
+                <filter id="filter-2" x="124" y="0" width="29" height="36" filterUnits="userSpaceOnUse">
+                  <feImage preserveAspectRatio="none" x="124" y="0" width="29" height="36" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjkiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAyOSAzNiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxNC41IiB5MT0iMzYiIHgyPSIxNC41IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzMyMjUzOSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM3NDUwODMiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjI5IiBoZWlnaHQ9IjM2Ii8+Cjwvc3ZnPgo="/>
+                  <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+                  <feBlend result="blend" in2="SourceGraphic"/>
+                </filter>
+              </defs>
+              <text id="PINGBULL" class="logo__part1" y="36">PINGBULL</text>
+              <text id="ER" class="logo__part2" x="122" y="36">ER</text>
+            </svg>
 
             <nav class="header__nav nav">
-                <a class="nav__item" href="#">Home</a>
+                <a class="nav__item nav__item_active" href="#">Home</a>
                 <a class="nav__item" href="#">About</a>
                 <a class="nav__item" href="#">Blog</a>
                 <a class="nav__item" href="#">Products</a>
-                <a class="nav__item" href="#">Lorem Ipsum</a>
-                <a class="nav__item" href="#">Dolor Sit Amet</a>
+                <a class="nav__item" href="#">Lorem&nbsp;Ipsum</a>
+                <a class="nav__item" href="#">Dolor&nbsp;Sit&nbsp;Amet</a>
             </nav>
 
         </header>
@@ -102,10 +122,10 @@
                 </p>
 
                 <div class="entity__switches switches">
-                    <input type="radio" name="sliders" class="switches__buttons--light" id="slide1">
-                    <input checked type="radio" name="sliders" class="switches__buttons--light" id="slide2">
-                    <input type="radio" name="sliders" class="switches__buttons--light" id="slide3">
-                    <input type="radio" name="sliders" class="switches__buttons--light" id="slide4">
+                    <input type="radio" name="texts" class="switches__buttons--light" id="text1">
+                    <input checked type="radio" name="texts" class="switches__buttons--light" id="text2">
+                    <input type="radio" name="texts" class="switches__buttons--light" id="text3">
+                    <input type="radio" name="texts" class="switches__buttons--light" id="text4">
                 </div>
 
             </section>
@@ -144,7 +164,7 @@
 
             <section class="articles">
                 <article class="entity">
-                    <h2 class="entity__heading entity__heading_big">Pingbuller</h2>
+                    <h2 class="entity__heading entity__heading_big">Pingbull<span class="entity__heading_grey">er</span></h2>
                     <h5 class="entity__subheading">Copyright 2013, Pingbull AS</h5>
                     <p class="entity__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque.
                         Praesent rhoncus ultrices posuere. Pellentesque Pellentesque
