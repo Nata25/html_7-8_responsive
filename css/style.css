@@ -29,21 +29,6 @@
     p {
         font-family: "Open Sans", sans-serif;
     }
-
-    .logo__part1,
-    .logo__part2 {
-        font-size: 47px;
-        font-family: "League Gothic";
-    }
-
-    .logo__part1 {
-        filter: url(#filter);
-        fill: #fff;
-    }
-
-    .logo__part2 {
-        filter: url(#filter-2);
-    }
 }
 
 @media only screen and (min-width: 960px) {
