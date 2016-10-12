@@ -1,18 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="37" viewBox="0 0 154 37">
   <defs>
-    <style>
-
-     @font-face {
-        font-family: 'league_gothicregular';
-        src: url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
-             url('../fonts/leaguegothic-regular-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-     }
+    <style type="text/css">
 
       .cls-1, .cls-2 {
         font-size: 48px;
-        font-family: "league_gothicregular", "League Gothic";
+        font-family: 'League Gothic Regular';
       }
 
       .cls-1 {
@@ -24,6 +16,8 @@
         filter: url(#filter-2);
         fill: #c3e54b;
       }
+
+
     </style>
     <filter id="filter" x="0" y="0" width="124" height="41" filterUnits="userSpaceOnUse">
       <feOffset result="offset" dy="2" in="SourceAlpha"/>
