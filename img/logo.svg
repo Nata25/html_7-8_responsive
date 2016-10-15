@@ -1,10 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="37" viewBox="0 0 154 37">
   <defs>
     <style type="text/css">
+ <![CDATA[
+
+        @font-face {
+            font-family: 'League Gothic Regular';
+            src: url('../fonts/leaguegothic-regular-webfont.eot'); /* IE9+ Compat Modes */
+            src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/League Gothic.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'), /* Super modern browsers */
+            url('../fonts/leaguegothic-regular-webfont.woff') format('woff'), /* Modern browsers */
+            url('../fonts/LeagueGothic-Regular.otf') format('otf'),
+            url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
 
       .cls-1, .cls-2 {
         font-size: 48px;
-        font-family: 'League Gothic Regular';
+        font-family: 'League Gothic Regular', arial;
       }
 
       .cls-1 {
@@ -16,7 +35,7 @@
         filter: url(#filter-2);
         fill: #c3e54b;
       }
-
+      ]]>
 
     </style>
     <filter id="filter" x="0" y="0" width="124" height="41" filterUnits="userSpaceOnUse">
