@@ -133,3 +133,38 @@ p {
         cursor: pointer;
         z-index: 2;
     }
+
+    .slider__switches {
+        width: 90px;
+        margin-top: 174px;
+        margin-left: 63.4%;
+    }
+
+    .switches__buttons {
+        display: none;
+    }
+
+    .switches__radio {
+        display: inline-block;
+        margin: 1px;
+        width: 16px;
+        height: 16px;
+        background-color: #000;
+        border-radius: 50%;
+        opacity: .35;
+    }
+
+    .switches__radio:hover {
+        opacity: .4;
+    }
+
+    #slide1:checked ~ #switches label:nth-child(1),
+    #slide2:checked ~ #switches label:nth-child(2),
+    #slide3:checked ~ #switches label:nth-child(3),
+    #slide4:checked ~ #switches label:nth-child(4) {
+        background-color: #fff;
+        border: 2px solid #000;
+        box-sizing: border-box;
+        opacity: 1;
+    }
+}
