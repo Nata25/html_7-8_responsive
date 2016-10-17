@@ -4,17 +4,13 @@
         <meta charset="utf-8">
         <title>Pingbuller: Home page</title>
         <link rel="stylesheet" href="css/reset.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <!-- <script src="https://use.typekit.net/ilq0csh.js"></script>
-        <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
     </head>
     <body>
         <header class="header">
 
-            <object class="header__logo logo" data="img/logo.svg" type="image/svg+xml">
-                <img alt="Pingbuller Logo" src="img/logo.png">
-            </object>
+            <img class="header__logo logo" alt="Pingbuller Logo" src="img/logo.png">
 
             <nav class="header__nav nav">
                 <a class="nav__item nav__item_active" href="#">Home</a>
@@ -31,16 +27,25 @@
 
             <section class="slider">
 
-                <h2 class="slider__main-title">Lorem Ipsum Dolor</h2>
-                <h3 class="slider__sub-title">It will make all of your dreams come true</h3>
-                <p>Semper sollicitudin gravida eget, vestibulum sit amet sapien.
-                    Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam
-                    venenatis hendrerit est at volutpat. Morbi elementum euismod
-                    lacus id semper. In odio nunc, imperdiet eget aliquam quis,
-                    euismod id
-                </p>
-                <img class="slider__image" src="img/iphone.png" alt="iPhone image">
-                <a class="slider__play-link" href="#"><button class="play-button" title="play"></button></a>
+                <article class="slider__entity">
+
+                    <h2 class="slider__title">Lorem Ipsum Dolor</h2>
+                    <h3 class="slider__sub-title">It will make all of your dreams come true</h3>
+                    <p class="slider__paragraph">Semper sollicitudin gravida eget, vestibulum sit amet sapien.
+                        Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam
+                        venenatis hendrerit est at volutpat. Morbi elementum euismod
+                        lacus id semper. In odio nunc, imperdiet eget aliquam quis,
+                        euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.
+                    </p>
+
+                    <figure class="slider__media">
+                        <img class="slider__image" src="img/phones.png" alt="iPhone image">
+                        <a class="slider__play-link" href="#">
+                            <button class="play-button" title="play"></button>
+                        </a>
+                    </figure>
+
+                </article>
 
                 <div class="slider__switches switches">
                     <input type="radio" name="sliders" class="switches__buttons" id="slide1">
