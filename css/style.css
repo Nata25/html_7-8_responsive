@@ -197,12 +197,13 @@ p {
     }
 
     .slider__switches {
-        margin-top: 174px;
-        margin-left: 62.5%;
+        /*margin-top: 174px;
+        margin-left: 62.5%;*/
+        margin: 174px auto;
     }
 
     .switches {
-        width: 90px;
+        width: 635px;
     }
 
     .switches__buttons {
@@ -211,7 +212,8 @@ p {
 
     .switches__radio {
         display: inline-block;
-        margin: 1px;
+        float: right;
+        margin: 2px;
         width: 16px;
         height: 16px;
         background-color: #000;
@@ -223,17 +225,17 @@ p {
         opacity: .4;
     }
 
-    #slide1:checked ~ #switches label:nth-child(1),
-    #slide2:checked ~ #switches label:nth-child(2),
-    #slide3:checked ~ #switches label:nth-child(3),
-    #slide4:checked ~ #switches label:nth-child(4) {
+    #slide1:checked ~ #switches label:nth-child(4),
+    #slide2:checked ~ #switches label:nth-child(3),
+    #slide3:checked ~ #switches label:nth-child(2),
+    #slide4:checked ~ #switches label:nth-child(1) {
         background-color: #fff;
         border: 2px solid #000;
         box-sizing: border-box;
         opacity: 1;
     }
 
-    /* pixel perfect at width 1715px */
+     /*pixel perfect at width 1715px */
     .slider__arrows {
         position: relative;
     }
@@ -353,12 +355,6 @@ p {
     .slider__label {
         top: 0;
         opacity: .5;
-        /*-webkit-transition: top 3s ease-out;
-        transition: top 3s ease-out;
-        -webkit-transition: opacity 1.5s ease-out;
-        transition: opacity 1.5s ease-out;*/
-        /*-webkit-transition: all 3s ease-out;
-        transition: all 3s ease-out;*/
     }
 }
 
