@@ -29,6 +29,14 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+}
+
 
 @media only screen and (min-width: 960px) {
     .header {
@@ -75,6 +83,10 @@ p {
 
     /* slider */
 
+    .slider {
+        height: 491px;
+    }
+
     .slider__entity {
         position: relative;
         width: 1165px;
@@ -84,20 +96,19 @@ p {
     }
 
     .slider__title {
-        font-size: 60px;
+        font-size: 59px;
     }
 
     .slider__sub-title {
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
+        font-size: 32px;
     }
 
     .slider__title {
-        font-size: 59px;
         color: #fefefe;
     }
 
     .slider__sub-title {
-        font-size: 32px;
         color: #edbfff;
     }
 
@@ -138,7 +149,7 @@ p {
 
     .slider__switches {
         margin-top: 174px;
-        margin-left: 63.4%;
+        margin-left: 62.4%;
     }
 
     .switches {
@@ -204,4 +215,55 @@ p {
         display: block;
     }
 
+    /* About section (violet) */
+    .columns {
+        text-align: center;
+        /*padding: 75px;*/
+    }
+
+    .columns_violet {
+        background: linear-gradient(to top, #322539 0%, #745083 100%);
+        border-top: 1px solid #33253a;
+    }
+
+    .columns__column {
+        display: inline-block;
+        /*margin: 79px 39px 60px 66px;*/
+        margin: 79px 47px 60px 61px;
+        width: 228px;
+        text-align: left;
+        color: #fff;
+    }
+
+    .entity {
+        line-height: 24px;
+    }
+
+    .entity_last-child {
+        margin-right: 0;
+    }
+
+    .entity__heading {
+        /*font-size: 30px;*/
+        margin-left: 2px;
+        font-size: 186%;
+    }
+
+    .entity__text {
+        margin-top: 11px;
+    }
+
+    .entity__link {
+        margin: 17px 8px;
+        color: #fff;
+        float: right;
+        font-size: 116%;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .entity__link:hover,
+    .entity_active {
+        text-shadow: 0 0 10px #fff;
+    }
 }
