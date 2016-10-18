@@ -40,14 +40,14 @@ p {
 
 @media only screen and (min-width: 960px) {
     .header {
-        width: 1006px;
+        width: 960px;
         margin: 0 auto;
     }
 
     .header__logo {
         position: relative;
         top: 14px;
-        margin-left: 21px;
+        /*margin-left: 21px;*/
     }
 
     /* navigation positioning */
@@ -60,19 +60,23 @@ p {
 
     /* navigation block */
     .nav {
-        width: 682px;
+        width: 657px;
     }
 
     .nav__item {
         display: inline-block;
         height: 28px;
-        margin: 0 19px;
-        padding: 0 5px 2px;
-        font-size: 24px;
+        margin: 0 23px;
+        /*padding: 0 5px 2px;*/
+        font-size: 154.2%;
         color: #fff;
         text-decoration: none;
         text-transform: uppercase;
         text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav__item_lastchild {
+        margin-right: 0;
     }
 
     .nav__item_active,
