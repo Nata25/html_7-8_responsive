@@ -77,8 +77,10 @@ p {
 
     .slider__entity {
         position: relative;
-        width: 968px;
+        width: 1165px;
         margin: 77px auto;
+        padding: 0 100px;
+        box-sizing: border-box;
     }
 
     .slider__title {
@@ -113,7 +115,7 @@ p {
     .slider__media {
         position: absolute;
         top: -95px;
-        left: 617px;
+        left: 717px;
         z-index: 1;
     }
 
@@ -171,6 +173,7 @@ p {
         opacity: 1;
     }
 
+    /* pixel perfect at width ~1710px */
     .slider__arrows {
         position: relative;
     }
