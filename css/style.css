@@ -143,6 +143,7 @@ p {
         position: absolute;
         top: 149px;
         left: 137px;
+        filter: blur(5px);
     }
 
     .play-button {
@@ -154,6 +155,40 @@ p {
         height: 76px;
         cursor: pointer;
         z-index: 2;
+        /*transition: filter .5 linear;
+        -webkit-transition-property: -webkit-filter;
+        -webkit-transition-duration: .5s;*/
+    }
+
+    @keyframes make-blur {
+        0% {
+            -webkit-filter: blur(0);
+        }
+        15% {
+            -webkit-filter: blur(3px);
+        }
+        100% {
+            -webkit-filter: blur(0);
+        }
+    }
+
+    -webkit-@keyframes make-blur {
+        0% {
+            -webkit-filter: blur(0);
+        }
+        15% {
+            -webkit-filter: blur(3px);
+        }
+        100% {
+            -webkit-filter: blur(0);
+        }
+    }
+
+    .play-button:hover {
+        -webkit-animation-name: make-blur;
+        -webkit-animation-duration: .5s;
+        /*-webkit-filter: blur(3px);*/
+
     }
 
     .slider__label {
@@ -208,6 +243,7 @@ p {
         top: -216px;
         width: 29px;
         height: 41px;
+        cursor: pointer;
     }
 
     #slide1:checked ~ #arrows label:nth-child(4),
