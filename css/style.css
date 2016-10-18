@@ -310,6 +310,8 @@ p {
         font-size: 116%;
         text-decoration: none;
         text-transform: uppercase;
+        transition: text-shadow .3s linear;
+        -webkit-transition: text-shadow .3s linear;
     }
 
     .entity__link:hover {
