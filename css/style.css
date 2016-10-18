@@ -38,8 +38,8 @@ p {
 
     .header__logo {
         position: relative;
-        top: 13px;
-        margin-left: 19px;
+        top: 14px;
+        margin-left: 21px;
     }
 
     /* navigation positioning */
@@ -173,12 +173,13 @@ p {
         opacity: 1;
     }
 
-    /* pixel perfect at width ~1710px */
+    /* pixel perfect at width 1715px */
     .slider__arrows {
         position: relative;
+        min-width: 1100px;
     }
+    
     .slider__label {
-        /*display: none;*/
         position: absolute;
         top: -216px;
         width: 29px;
@@ -199,8 +200,7 @@ p {
     #slide3:checked ~ #arrows label:nth-child(4),
     #slide4:checked ~ #arrows label:nth-child(1) {
         background-image: url('../img/next.png');
-        right: 59px;
-        /*right: 5.6%*/
+        right: 53px;
         display: block;
     }
 
