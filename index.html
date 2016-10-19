@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <title>Pingbuller: Home page</title>
         <link rel="stylesheet" href="css/reset.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header class="header">
+        <header class="wrapper">
 
             <img class="header__logo logo" alt="Pingbuller Logo" src="img/logo.png">
 
@@ -69,11 +69,10 @@
             </section>
 
             <div class="columns columns_violet">
-                <div class="test">
                 <!-- first column -->
-                <section class="columns__column entity">
+                <acticle class="columns__column entity">
                     <h3 class="entity__heading entity__heading_instruments">About our company</h1>
-                    <p class="entity__text">
+                    <p class="entity__text entity__text_violet">
                         Nunc turpis neque, feugiat eget eleifend et,
                         lacinia non neque. Praesent rhoncus ultrices po-suere.
                         Pellentesque vel lacus eget nisi convallis auctor. Nam
@@ -81,12 +80,12 @@
                     <a href="#" class="entity__link">
                         Read more
                     </a>
-                </section>
+                </acticle>
 
                 <!-- second column -->
-                <section class="columns__column entity">
+                <acticle class="columns__column entity">
                     <h3 class="entity__heading entity__heading_chat">About our company</h1>
-                    <p class="entity__text">
+                    <p class="entity__text entity__text_violet">
                         Nunc turpis neque, feugiat eget eleifend et,
                         lacinia non neque. Praesent rhoncus ultrices po-suere.
                         Pellentesque vel lacus eget nisi convallis auctor. Nam
@@ -94,12 +93,12 @@
                     <a href="#" class="entity__link">
                         Read more
                     </a>
-                </section>
+                </acticle>
 
                 <!-- third column -->
-                <section class="columns__column entity entity_last-child">
+                <acticle class="columns__column entity entity_last-child">
                     <h3 class="entity__heading entity__heading_music">About our company</h1>
-                    <p class="entity__text">
+                    <p class="entity__text entity__text_violet">
                         Nunc turpis neque, feugiat eget eleifend et,
                         lacinia non neque. Praesent rhoncus ultrices po-suere.
                         Pellentesque vel lacus eget nisi convallis auctor. Nam
@@ -107,13 +106,13 @@
                     <a href="#" class="entity__link">
                         Read more
                     </a>
-                </section>
+                </acticle>
             </div>
 
-            </div>
+            <div class="wrapper">
 
-            <section class="entity entity_cite">
-                <h2 class="entity__heading">Pingbuller <span class="entity__heading_violet">starts here</span></h2>
+            <article class="entity entity_cite single-item">
+                <h3 class="entity__heading">Pingbuller <span class="entity__heading_violet">starts here</span></h3>
                 <img class="entity__image" alt="Author's portrait" src="img/portrait.png">
                 <p class="entity__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque.
                     Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi
@@ -129,22 +128,25 @@
                     <input type="radio" name="texts" class="switches__buttons--light" id="text4">
                 </div>
 
-            </section>
+            </article>
 
-            <section class="updates">
-                <h2>Recent updates</h2>
+            <section class="updates single-item">
+                <h3 class="entity__heading">Recent updates</h3>
 
                 <article>
+                    <img class="updates__image" src="img/image1.png">
                     <h4 class="updates__heading">Nunc turpis neque feugiat eget</h4>
                     <p class="updates__text">Posted by Admin on March 13 2012 in Recent News</p>
                 </article>
 
                 <article>
+                    <img class="updates__image" src="img/image2.png">
                     <h4 class="updates__heading">Nunc turpis neque feugiat eget</h4>
                     <p class="updates__text">Posted by Admin on March 13 2012 in Category</p>
                 </article>
 
                 <article>
+                    <img class="updates__image" src="img/image1.png">
                     <h4 class="updates__heading">Nunc turpis neque feugiat eget</h4>
                     <p class="updates__text">Posted by Admin on March 13 2012 in Blog Updates</p>
                 </article>
@@ -153,12 +155,14 @@
 
             </section>
 
+        </div>
+
             <section class="partners">
                 <a class="partners__link" href="#"><img class="partners__logo" alt="Bllabong logo" src="img/bllabong_logo.png"></a>
                 <a class="partners__link" href="#"><img class="partners__logo" alt="Partner 2 logo" src="img/partner2_logo.png"></a>
                 <a class="partners__link" href="#"><img class="partners__logo" alt="Partner 3 logo" src="img/partner3_logo.png"></a>
                 <a class="partners__link" href="#"><img class="partners__logo" alt="AWSM logo" src="img/awsm_logo.png"></a>
-                <span class="helper"></span><a class="partners__link" href="#"><img class="partners__logo" alt="RVCA logo" src="img/rvca_logo.png"></a>
+                <a class="partners__link" href="#"><img class="partners__logo" alt="RVCA logo" src="img/rvca_logo.png"></a>
                 <a class="partners__link" href="#"><img class="partners__logo" alt="Vonzipper logo" src="img/vonzipper_logo.png"></a>
 
             </section>
