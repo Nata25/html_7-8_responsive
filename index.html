@@ -47,10 +47,10 @@
 
                 </article>
 
-                <input type="radio" name="sliders" class="switches__buttons" id="slide1">
-                <input checked type="radio" name="sliders" class="switches__buttons" id="slide2">
-                <input type="radio" name="sliders" class="switches__buttons" id="slide3">
-                <input type="radio" name="sliders" class="switches__buttons" id="slide4">
+                <input type="radio" name="sliders" class="switches__regular" id="slide1">
+                <input checked type="radio" name="sliders" class="switches__regular" id="slide2">
+                <input type="radio" name="sliders" class="switches__regular" id="slide3">
+                <input type="radio" name="sliders" class="switches__regular" id="slide4">
 
                 <div class="slider__arrows" id="arrows">
                     <label class="slider__label" for="slide1"></label>
@@ -59,11 +59,11 @@
                     <label class="slider__label" for="slide4"></label>
                 </div>
 
-                <div class="slider__switches switches" id="switches">
-                    <label class="switches__radio" for="slide1"></label>
-                    <label class="switches__radio" for="slide2"></label>
-                    <label class="switches__radio" for="slide3"></label>
-                    <label class="switches__radio" for="slide4"></label>
+                <div class="slider__switches">
+                    <label class="switches__custom switches__custom_main" for="slide4"></label>
+                    <label class="switches__custom switches__custom_main" for="slide3"></label>
+                    <label class="switches__custom switches__custom_main" for="slide2"></label>
+                    <label class="switches__custom switches__custom_main" for="slide1"></label>
                 </div>
 
             </section>
@@ -71,7 +71,7 @@
             <div class="columns columns_violet">
                 <!-- first column -->
                 <acticle class="columns__column entity">
-                    <h3 class="entity__heading entity__heading_instruments">About our company</h1>
+                    <h3 class="entity__heading entity__heading_white entity__heading_instruments">About our company</h1>
                     <p class="entity__text entity__text_violet">
                         Nunc turpis neque, feugiat eget eleifend et,
                         lacinia non neque. Praesent rhoncus ultrices po-suere.
@@ -84,7 +84,7 @@
 
                 <!-- second column -->
                 <acticle class="columns__column entity">
-                    <h3 class="entity__heading entity__heading_chat">About our company</h1>
+                    <h3 class="entity__heading entity__heading_white entity__heading_chat">About our company</h1>
                     <p class="entity__text entity__text_violet">
                         Nunc turpis neque, feugiat eget eleifend et,
                         lacinia non neque. Praesent rhoncus ultrices po-suere.
@@ -97,7 +97,7 @@
 
                 <!-- third column -->
                 <acticle class="columns__column entity entity_last-child">
-                    <h3 class="entity__heading entity__heading_music">About our company</h1>
+                    <h3 class="entity__heading entity__heading_white entity__heading_music">About our company</h1>
                     <p class="entity__text entity__text_violet">
                         Nunc turpis neque, feugiat eget eleifend et,
                         lacinia non neque. Praesent rhoncus ultrices po-suere.
@@ -121,11 +121,17 @@
                     nec metus ultricies erat consequat dignissim non eu nisl.”
                 </p>
 
-                <div class="entity__switches switches">
-                    <input type="radio" name="texts" class="switches__buttons--light" id="text1">
-                    <input checked type="radio" name="texts" class="switches__buttons--light" id="text2">
-                    <input type="radio" name="texts" class="switches__buttons--light" id="text3">
-                    <input type="radio" name="texts" class="switches__buttons--light" id="text4">
+                <input type="radio" class="switches__regular" name="texts" id="text1">
+                <input checked type="radio" class="switches__regular" name="texts" id="text2">
+                <input type="radio" class="switches__regular" name="texts" id="text3">
+                <input type="radio" class="switches__regular" name="texts" id="text4">
+
+
+                <div class="entity__switches">
+                    <label class="switches__custom switches__custom_light" for="text1"></label>
+                    <label class="switches__custom switches__custom_light" for="text2"></label>
+                    <label class="switches__custom switches__custom_light" for="text3"></label>
+                    <label class="switches__custom switches__custom_light" for="text4"></label>
                 </div>
 
             </article>
@@ -151,7 +157,7 @@
                     <p class="updates__text">Posted by Admin on March 13 2012 in Blog Updates</p>
                 </article>
 
-                <a class="updates__link" href="#">Read more here</a>
+                <a class="entity__link_black entity__link_right" href="#">Read more here</a>
 
             </section>
 
