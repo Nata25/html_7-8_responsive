@@ -351,6 +351,36 @@ p {
         content: '';
     }
 
+    /* partners */
+    .partners {
+        /*width: 960px;
+        margin: 0 auto;*/
+    }
+
+    .partners__link {
+        margin: 32px;
+        display: inline-block;
+        height: 64px;
+        width: 100px;
+        position: relative;
+
+    }
+
+    .partners__logo {
+        /*display: inline-block;
+        line-height: 64px;*/
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
 }
 
 @media screen and (max-width: 1237px) {
@@ -359,6 +389,7 @@ p {
         opacity: .5;
     }
 }
+
 
 /*@media screen and (max-width: 768px) {*/
     /*.nav__item {
