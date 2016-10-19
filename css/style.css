@@ -62,14 +62,15 @@ p {
 @media only screen and (min-width: 960px) {
     /* general non-BEM classes */
     .wrapper {
-        margin: 0 auto;
-        width: 960px;
+        margin: 0 23.8%;
+        width: 990px;
     }
 
     .single-item {
         display: inline-block;
         margin: 100px auto 50px 24px;
         box-sizing: border-box;
+        vertical-align: top;
     }
 
     /* BEM */
