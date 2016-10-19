@@ -68,7 +68,7 @@ p {
 
     .single-item {
         display: inline-block;
-        margin: 100px auto 50px 24px;
+        margin: 100px auto 61px 24px;
         vertical-align: top;
         box-sizing: border-box;
     }
@@ -357,8 +357,8 @@ p {
         position: absolute;
         width: 24px;
         height: 29px;
-        left: -49px;
-        top: 5px;
+        left: -51px;
+        top: 8px;
         background: url('../img/sprite.png') -61px 0 no-repeat;
         content: '';
     }
@@ -465,9 +465,9 @@ p {
     }
 
     /* partners */
-    .partners {
-        /*width: 960px;
-        margin: 0 auto;*/
+    .columns_border {
+        border-top: 1px solid #e6e5e5;
+        border-bottom: 1px solid #e6e5e5;
     }
 
     .partners__link {
@@ -480,20 +480,11 @@ p {
     }
 
     .partners__logo {
-        /*display: inline-block;
-        line-height: 64px;*/
-        max-height: 100%;
-        max-width: 100%;
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
+        margin: 25px 32px 30px;
+        vertical-align: middle;
     }
 
+    /* Bottom columns */
 }
 
 @media screen and (max-width: 1237px) {
