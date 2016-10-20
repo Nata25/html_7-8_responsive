@@ -104,7 +104,7 @@ p {
         text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
     }
 
-    .nav__item_lastchild {
+    .nav__item:last-child {
         margin-right: 0;
     }
 
@@ -288,7 +288,7 @@ p {
 
     /* About section (violet) */
     .columns {
-        text-align: center
+        text-align: center;
     }
 
     .columns_violet {
@@ -300,19 +300,19 @@ p {
 
     .columns__column {
         display: inline-block;
-        margin: 75px 35px 53px 72px;
-        width: 228px;
+        /*margin: 75px 35px 53px 72px;*/
+        margin: 75px 18px 53px 74px;
+        /*margin: 75px 25px 53px 81px;*/
+        /*width: 228px;*/
+        width: 225px;
         text-align: left;
         color: #fff;
+        vertical-align: top;
     }
 
     .entity {
         position: relative;
         /*line-height: 24px;*/
-    }
-
-    .entity_last-child {
-        margin-right: 0;
     }
 
     .entity__heading {
@@ -384,12 +384,6 @@ p {
     }
 
     /* light grey area */
-    .flex-container__child {
-        display: inline-block;
-        padding: 30px;
-        box-sizing: border-box;
-    }
-
     .entity_cite {
         width: 427px;
         height: 292px;
@@ -484,7 +478,81 @@ p {
         vertical-align: middle;
     }
 
-    /* Bottom columns */
+    /* grey columns */
+    .articles {
+        position: relative;
+        background-color: #ececec;
+        /*box-shadow: 0 9px 14px -10px #787878;*/
+        box-shadow: 0 3px 20px -7px #000;
+    }
+
+    .columns__column_wide {
+        width: 282px;
+        margin: 96px 28px 92px 25px;
+    }
+
+    .columns__column_wide:first-child {
+        margin-left: 0;
+    }
+
+    .columns__column_wide:last-child {
+        margin-right: 0;
+    }
+
+    .entity__text_grey {
+        color: #787878;
+        text-shadow: 1px 2px 1px #fff;
+    }
+
+    .entity__heading_big {
+        font-size: 46px;
+    }
+
+    .entity__heading_grey {
+        color: #b9b9b9;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+    .entity__subheading {
+        margin-top: 16px;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        color: #c5c5c5;
+        text-shadow: 1px 2px 1px #fff;
+    }
+
+    /* footer */
+    .footer {
+        position: relative;
+        height: 62px;
+        padding: 26px;
+        background: url('../img/bg-footer.jpg') center no-repeat;
+    }
+
+    .nav__item_small {
+        margin: 20px;
+        font-size: 123%;
+    }
+
+    .nav__item_small:first-child {
+        margin-left: 0;
+    }
+
+    .copy {
+        color: #fff;
+        font-size: 12px;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, .4);
+    }
+
+    .footer__copy {
+        text-align: right;
+        margin-top: -41px;
+    }
+
+    .copy__brandname {
+        font-weight: bold;
+    }
+
 }
 
 @media screen and (max-width: 1237px) {
