@@ -154,18 +154,48 @@ a {
 
     .slider__play-link {
         position: absolute;
-        top: 149px;
-        left: 137px;
+        top: 152px;
+        left: 140px;
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: transparent;
+        border: 5px solid #46324f;
+        box-shadow: 0px 0px 0 3px rgba(0, 0, 0, .2), inset 0px 0px 0 3px rgba(0, 0, 0, .2);
     }
 
-    .play-button {
+    /*fallback for ie*/
+    /*.play-button {
         width: 76px;
         height: 76px;
         background-color: transparent;
-        background-image: url('../img/button.png');
+        background-image: url('../img/button.jpg');
         border: 0;
         cursor: pointer;
         z-index: 2;
+    }*/
+
+    .play-button {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border-radius: 50%;
+        background-color: #cba5da;
+        opacity: .8;
+        border: 0;
+    }
+
+    .play-button:before {
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 18px;
+        left: 23px;
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: 21px solid #fff;
+        content: '';
     }
 
     @-webkit-keyframes make-blur {
@@ -198,13 +228,10 @@ a {
         }
     }
 
-    .play-button:hover {
-        -webkit-animation-name: make-blur;
-        -webkit-animation-duration: .6s;
-        -moz-animation-name: make-blur;
-        -moz-animation-duration: .6s;
-        animation-name: make-blur;
-        animation-duration: .6s;
+    .slider__play-link:hover {
+        -webkit-animation: make-blur 1s linear;
+        -moz-animation: make-blur 1s linear;
+        animation: make-blur 1s linear;
     }
 
     .slider__label {
