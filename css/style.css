@@ -165,17 +165,6 @@ a {
         box-shadow: 0px 0px 0 3px rgba(0, 0, 0, .2), inset 0px 0px 0 3px rgba(0, 0, 0, .2);
     }
 
-    /*fallback for ie*/
-    /*.play-button {
-        width: 76px;
-        height: 76px;
-        background-color: transparent;
-        background-image: url('../img/button.jpg');
-        border: 0;
-        cursor: pointer;
-        z-index: 2;
-    }*/
-
     .play-button {
         width: 50px;
         height: 50px;
@@ -184,6 +173,7 @@ a {
         background-color: #cba5da;
         opacity: .8;
         border: 0;
+        cursor: pointer;
     }
 
     .play-button:before {
@@ -315,7 +305,7 @@ a {
 
     .columns_violet {
         background: linear-gradient(to top, #322539 0%, #745083 100%);
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='##322539', EndColorStr='#745083')"; /* IE8 */
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#745083', EndColorStr='#322539')"; /* IE8 */
         zoom: 1;
         border-top: 1px solid #33253a;
         border-bottom: 1px solid #fff;
@@ -426,7 +416,9 @@ a {
     #text2:checked ~ .entity__switches .switches__custom-radio_light:nth-child(2),
     #text3:checked ~ .entity__switches .switches__custom-radio_light:nth-child(3),
     #text4:checked ~ .entity__switches .switches__custom-radio_light:nth-child(4) {
+        background-color: #6a6a6a;
         background-image: linear-gradient(to top, #454545 0%, #6a6a6a 100%);
+        border-radius: 50%;
         border: 1px solid #fff;
         box-shadow: 0 0 5px 0 #d1d1d1;
     }
