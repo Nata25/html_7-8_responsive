@@ -109,7 +109,7 @@ body {
 
 .slider__entity {
     position: relative;
-    width: 965px;
+    width: 960px;
     margin: 79px auto;
     box-sizing: border-box;
 }
@@ -523,13 +523,18 @@ body {
 .footer {
     position: relative;
     height: 62px;
-    padding: 26px;
+    padding: 26px 0;
     background: url('../img/bg-footer.jpg') center no-repeat;
 }
 
+.footer__nav {
+    width: 950px;
+}
+
 .nav__item_small {
-    margin: 20px;
-    font-size: 123%;
+    margin: 21px 19px;
+    padding: 0;
+    font-size: 124%;
 }
 
 .nav__item_small:first-child {
@@ -543,8 +548,9 @@ body {
 }
 
 .footer__copy {
-    margin-top: -47px;
+    /*width: 740px;*/
     text-align: right;
+    margin-top: -41px;
     font-family: 'Open Sans', sans-serif;
 }
 
