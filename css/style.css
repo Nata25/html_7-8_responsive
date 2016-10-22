@@ -91,7 +91,9 @@ body {
 /* slider */
 
 .slider {
-    height: 491px;
+    margin-bottom: 168px;
+    height: 401px;
+    background: rgba(0, 0, 0, .2);
 }
 
 .entity {
@@ -110,7 +112,8 @@ body {
 .slider__entity {
     position: relative;
     width: 960px;
-    margin: 79px auto;
+    margin: 0 auto;
+    padding: 79px 0;
     box-sizing: border-box;
 }
 
@@ -137,8 +140,8 @@ body {
 
 .slider__media {
     position: absolute;
-    top: -95px;
-    left: 617px;
+    top: -16px;
+    left: 615px;
     z-index: 1;
 }
 
@@ -220,8 +223,8 @@ body {
 }
 
 .slider__switches {
-    margin: 174px auto;
     width: 622px;
+    margin: 93px auto;
 }
 
 .switches__plain-radio {
