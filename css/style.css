@@ -11,32 +11,19 @@
     font-style: normal;
 }
 
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
 body {
     background: url('../img/bg.jpg') top center no-repeat;
     background-color: #f9f9f9;
     background-size: 2400px;
 }
 
-h1,
-h2,
-h3,
 a {
-    font-family: 'League Gothic Regular', sans-serif;
-}
 
-h3 {
-    text-transform: uppercase;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 /* animation */
@@ -59,7 +46,7 @@ a {
 
     .wrapper__item {
         display: inline-block;
-        margin: 100px auto 61px 24px;
+        margin: 100px auto 42px 24px;
         vertical-align: top;
         box-sizing: border-box;
     }
@@ -89,8 +76,11 @@ a {
         height: 28px;
         margin: 0 18px;
         padding: 0 4px;
-        font-size: 154.2%;
         color: #fff;
+        font-size: 154.2%;
+        font-family: 'League Gothic Regular', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
         text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
     }
 
@@ -113,6 +103,8 @@ a {
     .entity {
         position: relative;
         color: #454545;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
         text-shadow: .5px 1px 0 white;
     }
 
@@ -129,13 +121,16 @@ a {
     }
 
     .slider__title {
+        font-family: 'League Gothic Regular', sans-serif;
         color: #fefefe;
         font-size: 59px;
     }
 
     .slider__sub-title {
         color: #edbfff;
+        font-family: 'League Gothic Regular', sans-serif;
         font-size: 32px;
+        text-transform: uppercase;
     }
 
     .slider__paragraph {
@@ -143,6 +138,7 @@ a {
         margin-top: 5px;
         width: 525px;
         font-size: 112%;
+        line-height: 24px;
     }
 
     .slider__media {
@@ -324,19 +320,25 @@ a {
     .entity__heading {
         position: relative;
         margin-bottom: 3px;
+        font-family: 'League Gothic Regular', sans-serif;
         font-size: 186%;
+        text-transform: uppercase;
     }
 
     .entity__text {
         margin-top: 11px;
         font-size: 99%;
+        line-height: 24px;
     }
 
     .entity__link {
         margin: 17px 9px;
         float: right;
+        font-family: 'League Gothic Regular', sans-serif;
         font-size: 116%;
         color: #454545;
+        text-decoration: none;
+        text-transform: uppercase;
         -webkit-transition: text-shadow .3s linear;
         -moz-transition: text-shadow .3s linear;
         transition: text-shadow .3s linear;
@@ -547,8 +549,9 @@ a {
     }
 
     .footer__copy {
-        text-align: right;
         margin-top: -47px;
+        text-align: right;
+        font-family: 'Open Sans', sans-serif;
     }
 
     .copy__brandname {
