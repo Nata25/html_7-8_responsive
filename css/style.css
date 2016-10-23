@@ -682,13 +682,10 @@ body {
         font-size: 149%; /* check if it's applied to other headings! */
     }
 
-    .entity__text {
-        height: 150px;
-        overflow: hidden;
-    }
-
     .entity__text_white {
         margin-top: 4px;
+        height: 149px;
+        overflow: hidden;
     }
 
     .entity__link {
@@ -706,6 +703,11 @@ body {
         padding: 27px 22px 27px 37px;
         background: #fff;
         background-image: none;
+    }
+
+    .entity__text_cite {
+        height: 150px;
+        overflow: hidden;
     }
 
     .entity__switches {
@@ -744,6 +746,21 @@ body {
 
     .wrapper__item:last-child {
         margin-left: 24px;
+    }
+
+    .partners__logo {
+        margin: 25px 27px 30px;
+    }
+
+    .columns__col_wide {
+        width: 200px;
+        height: 180px;
+        margin: 102px 28px 92px 25px;
+        overflow: hidden;
+    }
+
+    .entity__text_grey {
+
     }
 
 
