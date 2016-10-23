@@ -106,6 +106,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     text-shadow: .5px 1px 0 white;
+    text-align: left;
 }
 
 .entity_white {
@@ -311,10 +312,24 @@ body {
 
 .columns__col {
     display: inline-block;
-    margin: 75px 18px 53px 74px;
-    width: 225px;
+    /*margin: 75px 18px 53px 74px;*/
+    margin: 75px 0 53px 75px;
+    width: 226px;
     text-align: left;
     vertical-align: top;
+}
+
+.columns__col:first-child {
+    margin-left: 38px;
+    margin-right: 32px;
+}
+
+.columns__col:nth-child(2) {
+    margin-right: 30px;
+}
+
+.columns__col:last-child {
+    margin-right: -30px;
 }
 
 .entity__heading {
@@ -491,8 +506,10 @@ body {
 }
 
 .columns__col_wide {
+    display: inline-block;
     width: 282px;
     margin: 96px 28px 92px 25px;
+    vertical-align: top;
 }
 
 .columns__col_wide:first-child {
@@ -671,7 +688,7 @@ body {
 
     .columns__col {
         width: 165px;
-        margin: 77px 17px 65px 65px;
+        margin: 77px 17px 68px 65px;
     }
 
     .columns__col:first-child { /* try to get rid of it later */
@@ -755,12 +772,8 @@ body {
     .columns__col_wide {
         width: 200px;
         height: 180px;
-        margin: 102px 28px 92px 25px;
+        margin: 102px 28px 113px 25px;
         overflow: hidden;
-    }
-
-    .entity__text_grey {
-
     }
 
 
