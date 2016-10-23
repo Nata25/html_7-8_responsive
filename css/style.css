@@ -692,7 +692,8 @@ body {
     }
 
     .columns__col:first-child { /* try to get rid of it later */
-        margin-left: 81px;
+        margin-left: 50px;
+        margin-right: 12px;
     }
 
     .entity__heading {
@@ -766,19 +767,34 @@ body {
     }
 
     .partners__logo {
-        margin: 25px 27px 30px;
+        margin: 25px 26px 30px;
     }
 
     .columns__col_wide {
         width: 200px;
-        height: 180px;
-        margin: 102px 28px 113px 25px;
+        height: 200px;
+        margin: 102px 28px 94px 25px;
         overflow: hidden;
     }
 
+    .footer {
+        height: 175px;
+        padding: 26px 10px 0 0;
+        background: url('../img/bg-footer_768.jpg') top center no-repeat;
+    }
 
-/*@media screen and (max-width: 768px) {*/
-    /*.nav__item {
+    .nav__item_small:first-child {
+        margin-left: 21px;
+
+    }
+
+    .footer__copy {
+        width: 735px;
+        margin-top: 7px;
+    }
+
+@media screen and (max-width: 767px) {
+    .nav__item {
         display: none;
     }
 
@@ -786,7 +802,7 @@ body {
         display: block;
     }
 
-    .nav__item:hover ~ .nav__item {
+    .nav .nav__item < .nav__item_active:hover {
         display: block;
-    }*/
-/*}*/
+    }
+}
