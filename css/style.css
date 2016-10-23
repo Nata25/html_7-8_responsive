@@ -670,12 +670,12 @@ body {
     }
 
     .columns__col {
-        width: 171px;
-        margin: 75px 18px 65px 63px;
+        width: 165px;
+        margin: 77px 17px 65px 65px;
     }
 
     .columns__col:first-child { /* try to get rid of it later */
-        margin-left: 99px;
+        margin-left: 81px;
     }
 
     .entity__heading {
