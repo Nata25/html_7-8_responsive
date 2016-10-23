@@ -455,7 +455,7 @@ body {
     margin-bottom: 4px;
 }
 
-.entity__link_right {
+.updates__link {
     float: right;
     font-size: 113%;
     margin-right: 20px;
@@ -683,15 +683,68 @@ body {
     }
 
     .entity__text {
-        margin-top: 5px; /* check if it's applied to other headings! remove .entity__text_white from html if needed*/
         height: 150px;
         overflow: hidden;
+    }
+
+    .entity__text_white {
+        margin-top: 4px;
     }
 
     .entity__link {
         margin: 2px 22px;
     }
 
+    .entity__heading_violet {
+        display: block;
+        margin-bottom: 7px;
+    }
+
+    .entity_cite {
+        width: 312px;
+        height: 271px;
+        padding: 27px 22px 27px 37px;
+        background: #fff;
+        background-image: none;
+    }
+
+    .entity__switches {
+        left: 70px;
+    }
+
+    .updates {
+        width: 370px;
+    }
+
+    .updates__heading {
+        width: 259px;
+    }
+
+    .updates__main-heading {
+        font-size: 187%;
+    }
+
+    .updates__text {
+        width: 255px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .updates__link {
+        margin: 14px 20px;
+    }
+
+    .wrapper__item {
+        margin-bottom: 50px;
+    }
+
+    .wrapper__item:first-child {
+        margin-left: 45px;
+    }
+
+    .wrapper__item:last-child {
+        margin-left: 24px;
+    }
 
 
 /*@media screen and (max-width: 768px) {*/
