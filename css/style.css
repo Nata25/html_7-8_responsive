@@ -19,7 +19,7 @@
 body {
     background: url('../img/bg.jpg') top center no-repeat;
     background-color: #f9f9f9;
-    background-size: 2400px;
+    /*background-size: 2400px;*/
 }
 
 /* animation */
@@ -813,6 +813,7 @@ body {
 
     body {
         background: url('../img/bg_480px.jpg') top center no-repeat;
+        background-color: #f9f9f9;
     }
 
     .wrapper {
@@ -964,6 +965,30 @@ body {
     .slider__switches {
         width: 97px;
         margin-top: 23px;
+    }
+
+    .columns__col,
+    .columns__col:last-child {
+        display: block;
+        margin: 53px 22px 0 88px;
+        width: 81%;
+    }
+
+    .columns__col:first-child {
+        margin-top: 79px;
+        margin-left: 88px;
+    }
+
+    .columns__col:last-child {
+        margin-bottom: 98px;
+    }
+
+    .entity__text_white {
+        height: 78px;
+    }
+
+    .entity__link {
+        margin: 8px 34px;
     }
 
 }
