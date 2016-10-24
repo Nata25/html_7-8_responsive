@@ -1026,5 +1026,29 @@ body {
         margin: 14px 11px;
     }
 
+    .partners {
+        padding: 35px 35px 10px 38px;
+    }
+
+    .partners__logo {
+        margin: -1px 26px 30px;
+    }
+
+    .articles {
+        padding-top: 32px;
+        padding-bottom: 72px;
+    }
+
+    .entity__subheading {
+        display: none;
+    }
+
+    .columns__col_wide,
+    .columns__col_wide:first-child,
+    .columns__col_wide:last-child {
+        width: 90%;
+        height: 133px;
+        margin: 47px 28px 8px 25px;
+    }
 
 }
