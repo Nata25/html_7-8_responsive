@@ -23,6 +23,22 @@ body {
 }
 
 /* animation */
+
+.header__nav {
+    -webkit-transition: background .2s ease-out;
+    -moz-transition: background .2s ease-out;
+    transition: background .2s ease-out;
+}
+
+.nav__item_main {
+    -webkit-transition: border-top 1s ease-out;
+    -moz-transition: border-top 1s ease-out;
+    transition: border-top 1s ease-out;
+    -webkit-transition: box-shadow .5s ease-out;
+    -moz-transition: box-shadow .5s ease-out;
+    transition: box-shadow .5s ease-out;
+}
+
 .slider__label {
     -webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -83,7 +99,7 @@ body {
 }
 
 .nav__item_active,
-.nav__item:hover {
+.nav__item_main:hover {
     border-bottom: 2px solid #edbfff;
     box-sizing: border-box;
 }
@@ -819,7 +835,30 @@ body {
         z-index: 4;
     }
 
-    .nav__item {
+    .header__nav:hover {
+    /*.header__nav.show {*/
+        background-color: #36293e;
+        opacity: .8;
+        border-radius: 5px;
+        /*border: 1px solid #051116;*/
+    }
+
+    .header__nav:hover > .nav__item_main {
+    /*.header__nav.show > .nav__item_main {*/
+        display: block;
+        border-top: 1px solid #221c25;
+        box-shadow: 0px -1px 0px 0px #6a5272;
+        box-sizing: border-box;
+    }
+
+    .header__nav:hover > .nav__item_active {
+    /*.header__nav.show > .nav__item_active {*/
+        display: inline-block;
+        box-shadow: none;
+        border-top: 0;
+    }
+
+    .nav__item_main {
         display: none;
         height: 43px;
         margin: 0;
@@ -832,21 +871,7 @@ body {
         background-color: transparent;
     }
 
-    .nav:hover {
-        background-color: #36293e;
-        opacity: .8;
-        border-radius: 5px;
-    }
-
-    .nav:hover > .nav__item {
-        display: block;
-    }
-
-    .nav:hover > .nav__item_active {
-        display: inline-block;
-    }
-
-    .nav__item:hover {
+    .nav__item_main:hover {
         background-color: #131017;
     }
 
