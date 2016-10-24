@@ -739,7 +739,7 @@ body {
         background-image: none;
     }
 
-    .entity__text_cite {
+    .entity_cite__text {
         height: 150px;
         overflow: hidden;
     }
@@ -983,6 +983,15 @@ body {
         margin-bottom: 98px;
     }
 
+    .wrapper__item {
+        margin-top: 70px;
+        margin-bottom: -3px;
+    }
+
+    .wrapper__item:last-child {
+        margin-left: 54px;
+    }
+
     .entity__text_white {
         height: 78px;
     }
@@ -990,5 +999,27 @@ body {
     .entity__link {
         margin: 8px 34px;
     }
+
+    .entity_cite {
+        width: 86%;
+    }
+
+    .entity_cite__heading {
+        font-size: 180%;
+    }
+
+    .entity__heading_violet {
+        display: inline-block;
+    }
+
+    .entity_cite__text {
+        height: 203px;
+    }
+
+    .entity__switches {
+        top: 16px;
+        left: 116px;
+    }
+
 
 }
