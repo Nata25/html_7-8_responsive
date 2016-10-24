@@ -1079,9 +1079,9 @@ body {
     }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 479px) {
     .wrapper {
-        width: 320px;
+        width: auto;
     }
 
     .header__nav {
@@ -1160,7 +1160,8 @@ body {
     }
 
     .wrapper__item:last-child {
-        margin-left: -9px;
+        display: block;
+        margin: 70px auto 93px;
     }
 
     .updates__heading {
