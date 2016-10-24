@@ -985,11 +985,12 @@ body {
 
     .wrapper__item {
         margin-top: 70px;
-        margin-bottom: -3px;
+        margin-bottom: -8px;
     }
 
     .wrapper__item:last-child {
         margin-left: 54px;
+        margin-bottom: 47px;
     }
 
     .entity__text_white {
@@ -1019,6 +1020,10 @@ body {
     .entity__switches {
         top: 16px;
         left: 116px;
+    }
+
+    .updates__link {
+        margin: 14px 11px;
     }
 
 
