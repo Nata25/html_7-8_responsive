@@ -459,11 +459,16 @@ body {
 .updates {
     width: 478px;
     padding: 28px 0;
+    color: #454545;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-shadow: .5px 1px 0 white;
+    text-align: left;
 }
 
 .updates__image {
     float: left;
-    margin: 15px 16px 3px 29px;
+    margin: 14px 16px 3px 29px;
 }
 
 .updates__main-heading {
@@ -487,10 +492,13 @@ body {
 }
 
 .updates__link {
+    margin: 18px 20px 17px 9px;
     float: right;
+    color: #454545;
+    font-family: 'League Gothic Regular', sans-serif;
     font-size: 113%;
-    margin-right: 20px;
-    margin-top: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* partners */
