@@ -613,6 +613,10 @@ body {
 }
 
 @media screen and (max-width: 959px) {
+    body {
+        background-image: url('../img/bg_768.jpg');
+    }
+
     .wrapper {
         width: 768px;
     }
@@ -797,7 +801,7 @@ body {
     .columns__col_wide {
         width: 200px;
         height: 200px;
-        margin: 102px 28px 94px 25px;
+        margin: 102px 28px 97px 25px;
         overflow: hidden;
     }
 
