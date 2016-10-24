@@ -858,7 +858,7 @@ body {
         opacity: .8;
     }
 
-    .nav__item {
+    .nav__item_main {
         display: none;
         position: relative;
         height: 43px;
@@ -1086,6 +1086,10 @@ body {
 
     .header__nav {
         top: 32px;
+    }
+
+    .nav__item_small {
+        display: none;
     }
 
     .slider {
