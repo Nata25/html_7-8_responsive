@@ -1051,4 +1051,13 @@ body {
         margin: 47px 28px 8px 25px;
     }
 
+    .nav__item_small {
+        margin: 21px 11px;
+    }
+
+    .footer__copy {
+        width: auto;
+        text-align: center;
+    }
+
 }
