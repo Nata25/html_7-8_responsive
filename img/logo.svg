@@ -23,6 +23,7 @@
 
       .cls-1, .cls-2 {
         font-size: 48px;
+        font-weight: lighter;
         font-family: 'League Gothic Regular', arial;
       }
 
