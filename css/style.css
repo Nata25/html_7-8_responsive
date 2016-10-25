@@ -445,6 +445,10 @@ body {
     opacity: 1;
 }
 
+.switches__custom-radio_light:hover {
+    opacity: .9;
+}
+
 #text1:checked ~ .entity__switches .switches__custom-radio_light:nth-child(1),
 #text2:checked ~ .entity__switches .switches__custom-radio_light:nth-child(2),
 #text3:checked ~ .entity__switches .switches__custom-radio_light:nth-child(3),
