@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
         <title>Pingbuller: Home page</title>
         <link rel="stylesheet" href="css/reset.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
@@ -12,9 +13,12 @@
         <![endif]-->
     </head>
     <body>
+
         <header class="wrapper">
 
-            <img class="header__logo logo" alt="Pingbuller Logo" src="img/logo.png">
+            <object class="header__logo logo" data="img/logo.svg" type="image/svg+xml">
+                <img alt="Pingbuller Logo" src="img/logo.png">
+            </object>
 
             <nav class="header__nav nav show">
                 <a class="nav__item  nav__item_main nav__item_active" href="#">Home</a>
