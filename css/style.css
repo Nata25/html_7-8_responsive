@@ -246,8 +246,8 @@ body {
 .slider__label {
     position: absolute;
     top: -216px;
-    width: 29px;
-    height: 41px;
+    width: 35px;
+    height: 46px;
     -moz-transition: opacity 1s ease-out, top .9s ease-out;
     -webkit-transition: opacity 1s ease-out, top .9s ease-out;
     transition: opacity 1s ease-out, top .9s ease-out;
