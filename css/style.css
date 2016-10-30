@@ -1,4 +1,4 @@
-    @font-face {
+@font-face {
     font-family: 'League Gothic Regular';
     src: url('../fonts/leaguegothic-regular-webfont.eot'); /* IE9+ Compat Modes */
     src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -129,7 +129,6 @@ body {
     position: absolute;
     top: -16px;
     left: 615px;
-    z-index: 1;
 }
 
 .slider__play-link {
@@ -937,8 +936,13 @@ body {
     }
 
     .slider__switches {
-        width: 97px;
+        width: 100px;
         margin-top: 23px;
+        z-index: 3;
+    }
+
+    .switches__custom-radio {
+        margin: 2px;
     }
 
     .columns__col,
